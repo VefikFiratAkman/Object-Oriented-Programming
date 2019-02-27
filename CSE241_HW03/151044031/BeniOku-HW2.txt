@@ -1,0 +1,21 @@
+PVC ve PVP olmak üzere iki hazır oyunu klasöre ekledim. İstediğiniz oyunda
+istediğinizi çağırabilirsiniz. Arka arkaya durmadan aynısını ya da bir PVCyi
+bir PVP yi durmadan çağırabilirsiniz. Herhangi bir sorun olmaycaktır.
+PVC oyununu LOAD'lar iseniz ilk hamlede D columnı seçerek aiDiagonal2Stopper
+fonksiyonun çalıştığını görebilirsiniz.
+Auto, decltype vs istenen her şeyde kodlarda bulunmakta.
+
+Ayrıca:
+Sorular formunda yayınlanan input formatlarını maalesef yeni gördüm.
+Bu yüzden önce ki ödevde olması gereken ama olmayan aşağıda ki özellikeri
+bu ödevde ekledim.
+
++ Sütun seçmek için sadece küçük harf girilmeliydi. Artık büyük küçük fark 
+etmiyor.
++ PVP için 1 PVC için 2 girilmeliydi. Artık PVP için P veya p PVC için C veya c
+girilmesi gerekiyor.
++ Char girilmesi gereken yerde integer veya integer girilmesi gereken yer de
+char girildiğinde sonsuz loop oluyordu. İnput tip kontrolünü ekledim. Artık
+böyle bir durumda  normal hata mesajı çıkıyor ve tekrar input istiyor.
+
+

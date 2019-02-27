@@ -1,0 +1,18 @@
+Tüm fonksiyonlarin public olmasi düzeltildi.
+Uzun fonksiyonlar düzenlendi.Kısaltılamayanların sebebi fonksiyonun commenlerine
+eklendi.
+Özellikle uzun fonksiyonlar için olmak üzere bir çok yeni comment eklendi.
+Bir cok Const ifadesi eklendi. Eksik Constlar tamamlandı.
+Referencelar düzeltildi. Özellikle ConnectFour tipinde parametreler icin.
+Ornegin:
+int bestGame(ConnectFour a,ConnectFour b,ConnectFour c,ConnectFour d);
+------->>>
+int bestGame(ConnectFour & a,ConnectFour & b,ConnectFour & c,ConnectFour & d)const;
+
+HW04'te istenilen her sey yapıldı.Hepsinin dogru calıstıgı test edildi.
+(Big Three Yapıldı.)
+TieGameInput diye input file tanımlandı. Calıstırıldıgında tüm
+boardu doldurup "Game is Tie!" durumu olusmasını saglıyor.
+
+Not:r6 test edilirken tüm board nameler board.txt yapıldı.
+board1.txt --->> board.txt
