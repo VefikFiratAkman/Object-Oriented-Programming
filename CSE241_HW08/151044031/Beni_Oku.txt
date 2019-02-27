@@ -1,0 +1,7 @@
+ScreenShotlarda çok anlaþýlmýyor lakin AI'ým daha önce ki ödevlerde
+olduðu gibi akýllý ve düzgün çalýþýyor.
+BoardSize veya GameMode girerken Cancela basýlýrsa System.out'la hata mesajýný
+veriyor. Çünkü o aþamada daha panel oluþturulmamýþ durumda. Bu yüzden
+hata mesajýný panel ile veremiyorum.
+
+Kolay gelsin hocam.
